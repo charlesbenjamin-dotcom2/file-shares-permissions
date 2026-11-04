@@ -11,17 +11,17 @@
 ## 🔎 About the project
 In this tutorial, we share resources over the network. Create File Shares to allow Read, Write, or Deny access to individual users or groups. 
 
-
-### 🍂 Environments and Technologies used:
+---
+### 🍂 Environments and Technologies used: 
   - Microsoft Azure ( Virtual Machines)
   - Remote Desktop
   - Active Directory Domain Services
-
-### ⚙ Operating Systems Used:
-- Windows Server2024
+----
+### ⚙ Operating Systems Used: 
+- Windows Server 2024
 - Windows 11
-
-### 📜 Steps
+---
+### 📜 Steps 
 - Step 1
 - Step 2
 - Step 3
