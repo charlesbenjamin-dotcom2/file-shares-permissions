@@ -22,15 +22,15 @@ In this tutorial, we share resources over the network. Create File Shares to all
 - Windows 11
 ---
 ### 📜 Steps 
-- Step 1 : Log into your domain account as an admin
-- Step 2 : On the C:\ drive create 4 folders
-- Step 3 : Set folder permissions
-- Step 4 : Log into dVM account as a normal user
-- Step 5 : Access folders to verify permission levels
+- Step 1: Log in to your domain account as an admin
+- Step 2: On the C:\ drive, create 4 folders
+- Step 3: Set folder permissions
+- Step 4: Log in to the VM account as a normal user
+- Step 5: Access folders to verify permission levels
 
 
-<h3> Step 1 : Log into your domain account as an admin</h3>
-As mentioned in the environments and technologies section we will be utilizing Microsoft Azure, Remote Desktop and Active Directory Domain services. This lab follows after the configuring-active-directory lab. To replicate the steps you need to have set up two virtual VMs within Azure. One as a domaain controller utilizing Windows Server 2024 and the other as a client utilizing windows 11. Next we would also to have deployed our Active Directory environment with the appropriate groups and users. From there we utilize Remote Desktop to first log in to the Admmin account.
+<h3> Step 1: Log into your domain account as an admin</h3>
+As mentioned in the environments and technologies section, we will utilize Microsoft Azure, Remote Desktop, and Active Directory Domain Services. This lab follows the configuring-active-directory lab. To replicate the steps, you need to have set up two virtual VMs within Azure. One as a domain controller using Windows Server 2024 and the other as a client using Windows 11. We also need to have deployed our Active Directory environment with the appropriate groups and users. From there, we use Remote Desktop to log in to the Admin account.
 
 
 <h3> Step 2 : On the C:\ drive create 4 folders</h3>
