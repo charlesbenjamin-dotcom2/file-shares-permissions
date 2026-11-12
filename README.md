@@ -22,6 +22,8 @@ In this tutorial, we share resources over the network. Create File Shares to all
 - Windows 11
 ---
 ### 📜 Steps 
-- Step 1
-- Step 2
-- Step 3
+- Step 1 : Log into your domain admin account
+- Step 2 : On the C:\ drive create 4 folders with different access levels
+- Step 3 : Set folder permissions
+- Step 4 : Log into domain account as a normal user
+- Step 5 : Access folders to verify permission levels
