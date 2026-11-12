@@ -55,8 +55,8 @@ While still in the C:\ drive, we then set the permissions for all 3 folders. We 
   
   #
   
-<h3> Step 4: Log into VM account as a normal user</h3>
-In this step, you will log into the client virtual machine we previously created via Remote Desktop.
+<h3> Step 4: Log in to VM account as a normal user</h3>
+In this step, we log into the client virtual machine we previously created via Remote Desktop.
 
 #
 
