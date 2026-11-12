@@ -23,21 +23,25 @@ In this tutorial, we share resources over the network. Create File Shares to all
 ---
 ### 📜 Steps 
 - Step 1: Log in to your domain account as an admin
-- Step 2: On the C:\ drive, create 4 folders
+- Step 2: On the C:\ drive, create 3 folders
 - Step 3: Set folder permissions
 - Step 4: Log in to the VM account as a normal user
-- Step 5: Access folders to verify permission levels
+- Step 5: Access folders to verify permission levels 
 
+#
 
 <h3> Step 1: Log into your domain account as an admin</h3>
 As mentioned in the environments and technologies section, we will utilize Microsoft Azure, Remote Desktop, and Active Directory Domain Services. This lab follows the configuring-active-directory lab. To replicate the steps, you need to have set up two virtual VMs within Azure. One as a domain controller using Windows Server 2024 and the other as a client using Windows 11. We also need to have deployed our Active Directory environment with the appropriate groups and users. From there, we use Remote Desktop to log in to the Admin account.
 
+#
 
-<h3> Step 2 : On the C:\ drive create 4 folders</h3>
-After logging in as an admin, we head over to the C:\ drive to create 4 folders. The first named Accounting will be utilized to set group permissions. The other 3 wiil be used to set individual permissions
+<h3> Step 2 : On the C:\ drive create 3 folders</h3>
+After logging in as an admin, we click on the C:\ drive to create 3 folders. 
+
+#
 
 <h3> Step 3 : Set folder permissions</h3>
-While still in the C:\ drive we then for all 3 individual user folders we follow these steps to give them teir respective permisions
+While still in the C:\ drive, we then set the permissions for all 3 individual user folders. We follow these steps to give them their respective permissions.
 
   - Right click the folder and go to properties
   - Click on the Sharing tab of the properties window
@@ -49,9 +53,12 @@ While still in the C:\ drive we then for all 3 individual user folders we follow
   - Then click on the share button at the bottom right of the network access window. 
   - Once folder has been shared click the done button is network access window
   
-  
+  #
   
 <h3> Step 4 : Log into VM account as a normal user</h3>
 In this step you will log into the client virtual machine we previuosly created
+
+#
+
 <h3> Step 5 : Access folders to verify permission levels</h3>
-From there we will click on all 4 four folders to verify the permisson level. 
+From there we will click on all 3 folders to verify the permisson level. 
