@@ -30,7 +30,7 @@ In this tutorial, we share resources over the network. Create File Shares to all
 
 
 <h3> Step 1 : Log into your domain account as an admin</h3>
-As mentioned in the environments and technologies section we will be utilizing Microsoft Azure, Remote Desktop and Active Directory Domain services. This labs To replicate the steps you need to have set up two virtual VMs within Azure. One as a domaain controller utilizing Windows Server 2024 and the other as a client utilizing windows 11. Next we would also to have deployed our Active Directory environment with the appropriate groups and users. From there we utilize Remote Desktop to first log in to the Admmin account
+As mentioned in the environments and technologies section we will be utilizing Microsoft Azure, Remote Desktop and Active Directory Domain services. This lab follows after the configuring-active-directory lab. To replicate the steps you need to have set up two virtual VMs within Azure. One as a domaain controller utilizing Windows Server 2024 and the other as a client utilizing windows 11. Next we would also to have deployed our Active Directory environment with the appropriate groups and users. From there we utilize Remote Desktop to first log in to the Admmin account.
 
 
 <h3> Step 2 : On the C:\ drive create 4 folders</h3>
