@@ -18,7 +18,7 @@ In this tutorial, we share resources over the network. Create File Shares to all
 - Step 1: Log in to your domain account as an admin
 - Step 2: On the C:\ drive, create 3 folders
 - Step 3: Set folder permissions
-- Step 4: Log in to the VM account as a normal user
+- Step 4: Log in to the client account as a normal user
 - Step 5: Access folders to verify permission levels 
 
 #
@@ -29,7 +29,7 @@ As mentioned in the environments and technologies section, we will utilize Micro
 #
 
 <h3>🎯 Step 2: On the C:\ drive create 3 folders</h3>
-After logging in as an admin, we click on the C:\ drive to create 3 folders. The names are not important, but to reduce confusion, we will name the folders according to the access level they will receive. So, no-access, read-access, and write-access.
+After logging in as an admin, click on File Explorer, then click on the C:\ drive to create 3 folders. The names are not important, but to reduce confusion, we will name the folders according to the access level they will receive. So, no-access, read-access, and write-access.
 
 #
 
@@ -54,4 +54,7 @@ In this step, we log into the client virtual machine we previously created via R
 #
 
 <h3>🎯 Step 5: Access folders to verify permission levels</h3>
-After logging into the client VM, we click on the C:\ drice to access the folders we previously created and verify the permission levels
+After logging into the client VM, we click on File Explorer, then in the search bar, type \\dc-1. DC-1 is the name of the Domain Controller virtual machine we previously set up in our configuring-active-directory lab. From there, we can verify the permission level for each folder by following these steps
+
+  - Double-click on the folder (In this step, both the read and the read-write folder would allow access into the folder, while the no-access folder would not)
+  - While inside the folder, right-click, then click on New, then click on Text Document to create a new document ( In this step, the read-write folder would allow access, while the read folder would not)
