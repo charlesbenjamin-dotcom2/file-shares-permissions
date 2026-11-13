@@ -44,7 +44,7 @@ While still in the C:\ drive, we then set the permissions for all 3 folders. We 
   - Right-click the folder and go to properties
   - Click on the Sharing tab of the properties window
   - Then click on Share
-  - Type Domain Users in the search bar of the Network Access window for the read-access and write-access folders 
+  - Type Domain Users in the search bar of the Network Access window for the read-access and write-access folders only
   - Click the Add button to the right of the search bar
   - Once added, Domain Users will appear in the box below
   - To the right of their name, the permission level will be listed with an arrow that allows you to set the appropriate level
